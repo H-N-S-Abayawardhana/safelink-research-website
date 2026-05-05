@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--
+  domain.html
+  ===========
+  Domain page for the SafeLink project.
+  Presents the literature survey, research gap, problem statement,
+  objectives, methodology, and technologies used.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Research domain and methodology for the SafeLink public safety project">
+    <title>Domain | SafeLink Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===================== NAVIGATION BAR ===================== -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/logo.png" alt="SafeLink Logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="domain.html" class="active">Domain</a>
+                <a href="milestones.html">Milestones</a>
+                <a href="documents.html">Documents</a>
+                <a href="presentations.html">Presentations</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===================== PAGE BANNER ===================== -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Project Domain</h1>
+            <p>Explore the research background, problem statement, methodology, and technologies behind our project.</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="separator">/</span>
+                <span>Domain</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== LITERATURE SURVEY ===================== -->
+    <section class="section">
+        <div class="container">
+            <div class="domain-card">
+                <h3>
+                    <span class="card-number">1</span>
+                    Literature Survey
+                </h3>
+                <p>
+                    Existing research in public safety and community policing highlights limitations of
+                    manual, reactive systems for emergency handling, traffic monitoring, and harmful content
+                    moderation. Recent advances in AI, mobile systems, and multimodal analytics provide a
+                    foundation for proactive and context-aware safety intelligence.
+                </p>
+                <p>
+                    Key areas reviewed include:
+                </p>
+                <ul>
+                    <li>Crime hotspot prediction using spatio-temporal machine learning</li>
+                    <li>Multilingual and code-mixed Sinhala-English NLP for harmful content detection</li>
+                    <li>YOLO-based object detection for emergency and traffic surveillance</li>
+                    <li>Multimodal emergency communication systems using video, audio, and GPS</li>
+                    <li>License plate recognition pipelines for automated traffic enforcement</li>
+                </ul>
+                <p>
+                    While these studies show strong individual outcomes, most solutions address isolated problems.
+                    There is still limited work on a unified, mobile-first platform tailored to Sri Lanka's social,
+                    linguistic, and infrastructure context.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== RESEARCH GAP ===================== -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="domain-card">
+                <h3>
+                    <span class="card-number">2</span>
+                    Research Gap
+                </h3>
+                <p>
+                    Despite global progress in AI safety systems, implementation in Sri Lanka remains fragmented.
+                    Identified gaps include:
+                </p>
+                <ul>
+                    <li>Lack of integration between physical-world monitoring, emergency response, and online threat detection</li>
+                    <li>Limited bilingual systems that support Sinhala-English code-mixed real-world reports</li>
+                    <li>Heavy dependence on manual monitoring for social media and emergency workflows</li>
+                    <li>Insufficient predictive models for proactive intervention before incidents escalate</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== RESEARCH PROBLEM ===================== -->
+    <section class="section">
+        <div class="container">
+            <div class="domain-card">
+                <h3>
+                    <span class="card-number">3</span>
+                    Research Problem
+                </h3>
+                <p>
+                    How can an AI-powered mobile platform improve public safety and community policing in
+                    Sri Lanka by enabling proactive risk prediction, real-time emergency support,
+                    harmful content moderation, and smart traffic analytics in one integrated framework?
+                </p>
+                <p>
+                    The core challenge is to build a scalable, multilingual, and context-aware platform
+                    that supports both citizens and authorities with timely alerts, data-driven decisions,
+                    and improved situational awareness.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== RESEARCH OBJECTIVES ===================== -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="domain-card">
+                <h3>
+                    <span class="card-number">4</span>
+                    Research Objectives
+                </h3>
+                <ul>
+                    <li>Design a women and children safety risk prediction module using multimodal analytics</li>
+                    <li>Implement an emergency SOS feature with real-time GPS, live streaming, and automated threat detection</li>
+                    <li>Develop multilingual harmful social media content detection for proactive intervention</li>
+                    <li>Build smart traffic violation detection and accident-risk prediction using computer vision</li>
+                    <li>Deliver a unified mobile and dashboard ecosystem for preventive policing and response coordination</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== METHODOLOGY ===================== -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Methodology</h2>
+                <p>Our research follows a structured, iterative approach to ensure reliable and validated results.</p>
+            </div>
+            <div class="methodology-steps">
+                <div class="step-box">
+                    <div class="step-number">1</div>
+                    <h4>Multisource Data Collection</h4>
+                    <p>Collect incident media, emergency records, social media content, and traffic data relevant to Sri Lankan public safety.</p>
+                </div>
+                <div class="step-box">
+                    <div class="step-number">2</div>
+                    <h4>Data Preprocessing</h4>
+                    <p>Normalize video, clean audio, and standardize Sinhala-English code-mixed text for reliable model training.</p>
+                </div>
+                <div class="step-box">
+                    <div class="step-number">3</div>
+                    <h4>Model Development</h4>
+                    <p>Train YOLO, XLM-RoBERTa, and YAMNet based models for threat detection, classification, and risk estimation.</p>
+                </div>
+                <div class="step-box">
+                    <div class="step-number">4</div>
+                    <h4>System Integration</h4>
+                    <p>Integrate all AI modules into a mobile application with secure backend services and police/admin dashboards.</p>
+                </div>
+                <div class="step-box">
+                    <div class="step-number">5</div>
+                    <h4>Testing &amp; Validation</h4>
+                    <p>Evaluate model precision, recall, F1-score, and mAP; then validate functional performance under real-time scenarios.</p>
+                </div>
+                <div class="step-box">
+                    <div class="step-number">6</div>
+                    <h4>Real-Time Evaluation</h4>
+                    <p>Assess emergency stream reliability, location tracking, multimodal scoring, and dashboard responsiveness.</p>
+                </div>
+                <div class="step-box">
+                    <div class="step-number">7</div>
+                    <h4>Optimization</h4>
+                    <p>Improve threshold tuning, false positive reduction, and multilingual robustness for deployment readiness.</p>
+                </div>
+                <div class="step-box">
+                    <div class="step-number">8</div>
+                    <h4>Documentation</h4>
+                    <p>Publish technical reports, research findings, and implementation guidance for future national-scale adoption.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TECHNOLOGIES USED ===================== -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technologies Used</h2>
+                <p>A practical AI stack used to implement multimodal public safety intelligence.</p>
+            </div>
+            <div class="tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">scikit-learn</span>
+                <span class="tech-tag">XLM-RoBERTa</span>
+                <span class="tech-tag">YOLOv11</span>
+                <span class="tech-tag">YAMNet</span>
+                <span class="tech-tag">PaddleOCR</span>
+                <span class="tech-tag">Whisper</span>
+                <span class="tech-tag">GPS Tracking</span>
+                <span class="tech-tag">Live Streaming</span>
+                <span class="tech-tag">REST API</span>
+                <span class="tech-tag">Git &amp; GitHub</span>
+                <span class="tech-tag">Jupyter Notebook</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4>SafeLink Project</h4>
+                    <p>
+                        SafeLink is a final-year research project developed by undergraduates of the
+                        Faculty of Computing, Sri Lanka Institute of Information Technology (SLIIT),
+                        focused on AI-powered public safety and community policing.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="domain.html">Domain</a>
+                    <a href="milestones.html">Milestones</a>
+                    <a href="documents.html">Documents</a>
+                </div>
+                <div class="footer-links">
+                    <h4>More</h4>
+                    <a href="presentations.html">Presentations</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>&#9993; it22311054@my.sliit.lk</p>
+                    <p>&#128222; +94 77 123 4567</p>
+                    <p>&#127979; SLIIT, New Kandy Road, Malabe, Sri Lanka</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SafeLink Research Project. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile nav toggle -->
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function () {
+            document.getElementById('navLinks').classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>

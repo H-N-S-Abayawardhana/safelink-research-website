@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--
+  milestones.html
+  ===============
+  Milestones page for the SafeLink project.
+  Displays the project timeline, assessment schedule, dates, and marks.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project milestones and assessment timeline for the SafeLink project">
+    <title>Milestones | SafeLink Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===================== NAVIGATION BAR ===================== -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/logo.png" alt="SafeLink Logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="domain.html">Domain</a>
+                <a href="milestones.html" class="active">Milestones</a>
+                <a href="documents.html">Documents</a>
+                <a href="presentations.html">Presentations</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===================== PAGE BANNER ===================== -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Project Milestones</h1>
+            <p>Track our project assessments, key dates, and progress throughout the academic year.</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="separator">/</span>
+                <span>Milestones</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TIMELINE ===================== -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Assessment Timeline</h2>
+                <p>Key milestones and deliverables for our research project across both semesters.</p>
+            </div>
+
+            <div class="timeline">
+
+                <!-- Milestone 1: Project Proposal -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">September 2025</span>
+                        <h3>Project Proposal</h3>
+                        <p>
+                            Initial proposal presentation covering project scope, objectives,
+                            literature review, and proposed methodology. This milestone establishes
+                            the foundation and direction of the research project.
+                        </p>
+                        <span class="timeline-marks">Marks: 6%</span>
+                    </div>
+                </div>
+
+                <!-- Milestone 2: Progress Presentation 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">January 2026</span>
+                        <h3>Progress Presentation 1</h3>
+                        <p>
+                            First progress review demonstrating initial implementation,
+                            data collection progress, and preliminary model training results.
+                            Includes a 50% completion status report.
+                        </p>
+                        <span class="timeline-marks">Marks: 15%</span>
+                    </div>
+                </div>
+
+                <!-- Milestone 3: Progress Presentation 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">March 2026</span>
+                        <h3>Progress Presentation 2</h3>
+                        <p>
+                            Second progress review showcasing advanced implementation,
+                            integrated system modules, testing results, and 80% project
+                            completion with evaluation metrics.
+                        </p>
+                        <span class="timeline-marks">Marks: 18%</span>
+                    </div>
+                </div>
+
+                <!-- Milestone 4: Final Presentation and Viva -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">April 2026</span>
+                        <h3>Final Presentation and Viva</h3>
+                        <p>
+                            Final project presentation and viva evaluation covering the complete
+                            system demonstration, research contributions, implementation details,
+                            and individual understanding of all project components.
+                        </p>
+                        <span class="timeline-marks">Marks: 10%</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== MARKS SUMMARY ===================== -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Marks Breakdown</h2>
+                <p>Overview of how project marks are distributed across all assessments.</p>
+            </div>
+            <div class="grid-4 marks-grid">
+                <div class="card mark-card">
+                    <h3 class="mark-value">6%</h3>
+                    <h4>Project Proposal</h4>
+                    <p>Scope, objectives, and methodology</p>
+                </div>
+                <div class="card mark-card">
+                    <h3 class="mark-value">15%</h3>
+                    <h4>Progress Presentation 1</h4>
+                    <p>Initial implementation review</p>
+                </div>
+                <div class="card mark-card">
+                    <h3 class="mark-value">18%</h3>
+                    <h4>Progress Presentation 2</h4>
+                    <p>Advanced implementation review</p>
+                </div>
+                <div class="card mark-card">
+                    <h3 class="mark-value">10%</h3>
+                    <h4>Final Presentation and Viva</h4>
+                    <p>Final demo, report defense, and viva</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h4>SafeLink Project</h4>
+                    <p>
+                        SafeLink is a final-year research project developed by undergraduates of the
+                        Faculty of Computing, Sri Lanka Institute of Information Technology (SLIIT),
+                        focused on AI-powered public safety and community policing.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="domain.html">Domain</a>
+                    <a href="milestones.html">Milestones</a>
+                    <a href="documents.html">Documents</a>
+                </div>
+                <div class="footer-links">
+                    <h4>More</h4>
+                    <a href="presentations.html">Presentations</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>&#9993; it22311054@my.sliit.lk</p>
+                    <p>&#128222; +94 77 123 4567</p>
+                    <p>&#127979; SLIIT, New Kandy Road, Malabe, Sri Lanka</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SafeLink Research Project. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile nav toggle -->
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function () {
+            document.getElementById('navLinks').classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>
